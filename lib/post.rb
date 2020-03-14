@@ -6,11 +6,11 @@ class Post
     @name = name
   end
 
-  def artist_name
-    if @artist == nil
+  def author_name
+    if @author == nil
       nil
     else
-      self.artist.name
+      self.author.name
     end
   end
 end
