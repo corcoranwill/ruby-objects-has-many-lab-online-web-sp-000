@@ -16,6 +16,10 @@ class Artist
     song = Song.new(name, genre)
     add_song(song)
   end
+
+  def song_count
+    Song.all.count
+  end
 end
 
 
