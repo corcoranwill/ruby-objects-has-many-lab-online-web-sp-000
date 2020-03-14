@@ -17,7 +17,7 @@ describe "Artist" do
     end
 
     describe "#songs" do
-      xit "has many songs" do
+      it "has many songs" do
         expect(adele.songs).to be_a(Array)
         hello = Song.new("Hello")
         hello.artist = adele
@@ -43,7 +43,7 @@ describe "Artist" do
     end
 
     describe ".song_count" do
-      xit "is a class method that returns the total number of songs associated to all existing artists" do
+      it "is a class method that returns the total number of songs associated to all existing artists" do
         expect(Artist.song_count).to eq(3)
       end
     end
