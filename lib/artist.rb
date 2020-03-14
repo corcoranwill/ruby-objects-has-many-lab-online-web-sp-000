@@ -29,13 +29,13 @@ end
 
 
 
-
-
-  def add_song_by_name(name)
-    song = Song.new(name)
-    @songs << song
-    @@song_count += @songs.count
-    song.artist = self
-    song
-  end
-end
+# 
+#
+#   def add_song_by_name(name)
+#     song = Song.new(name)
+#     @songs << song
+#     @@song_count += @songs.count
+#     song.artist = self
+#     song
+#   end
+# end
